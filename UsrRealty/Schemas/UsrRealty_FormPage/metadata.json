@@ -1,0 +1,147 @@
+= MetaData.Schema.UId "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.A2 "UsrRealty_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
++ MetaData.Schema.B2 {
+  "UId": "cf3a3afe-c242-189d-b4e1-f6bd0e33b62e",
+  "A2": "addRecord_cei8wa9_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "e0b58069-e560-0538-0413-ee6a45d46c88",
+  "A2": "addRecord_eajtjta_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "9598c83d-1924-1759-e364-6f21a6a9623f",
+  "A2": "addRecord_wkyrekp_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "cb4437eb-ad09-c3aa-e579-5d7411b9739e",
+  "A2": "Button_vqo1sta_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "c13464c5-33b3-2425-d48e-8f1ad8181acb",
+  "A2": "NumberInput_i3y5pvu_label",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "3e1a2c03-0e28-e232-4af8-f76a5872f70e",
+  "A2": "PriceCannotBeLess",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "44b97cb2-fb91-7878-89de-9af5be877375",
+  "A2": "AreaCannotBeLess",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "4e75da6b-0be9-aed0-7f25-2d7df0e4cd1e",
+  "A2": "addRecord_2haaax2_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "3ff4217f-5daa-55ed-f02d-601633b39d08",
+  "A2": "addRecord_0zn04f1_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "51f40d28-27d1-c5e5-7558-dad725e0e63a",
+  "A2": "GridDetailSearchFilter_yan1mvr_placeholder",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "8a6a0048-e3f6-08c6-2dcc-632a11b12896",
+  "A2": "GridDetailImportDataBtn_7wubbzi_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "bdcf39e9-66b8-2f9e-5c49-32a7007528b6",
+  "A2": "GridDetailExportDataBtn_13pciud_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "e3b3546f-60e4-0445-b563-8afaf6b4edc9",
+  "A2": "GridDetailSettingsBtn_mhu85p7_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "131ffe58-fe11-865f-8f0a-d9bde1d32a80",
+  "A2": "GridDetailRefreshBtn_v21seo0_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "de7b571f-1ac4-1caa-2421-7f0f11215d0e",
+  "A2": "GridDetailAddBtn_uxzle6l_caption",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
++ MetaData.Schema.B2 {
+  "UId": "d368d201-2506-3105-4f94-ded9443aad73",
+  "A2": "ExpansionPanel_r0go0yi_title",
+  "A3": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A4": "c1c28f7f-2258-4fff-a938-28fad91b2653",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4"
+}
+= MetaData.Schema.B2.["fd9e5bd2-19ad-68b5-1356-fe7b39d36f28"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["fd9e5bd2-19ad-68b5-1356-fe7b39d36f28"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["a77180d7-a9d0-5c7d-a47b-74c0545a1774"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["a77180d7-a9d0-5c7d-a47b-74c0545a1774"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["a53e6c9a-741a-21de-9293-9d87d6014595"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["a53e6c9a-741a-21de-9293-9d87d6014595"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["09d13380-5ba0-e839-0eb2-8c4de07ba379"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["09d13380-5ba0-e839-0eb2-8c4de07ba379"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["3e977072-67fa-588e-d554-1d5c45e71ae9"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["3e977072-67fa-588e-d554-1d5c45e71ae9"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["231defdf-a768-e23a-fb30-1af82d65f9f9"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["231defdf-a768-e23a-fb30-1af82d65f9f9"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["d6b949fc-ba7c-e706-6a88-0422133b6a4e"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["d6b949fc-ba7c-e706-6a88-0422133b6a4e"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["ea614858-aa1f-88eb-88df-0df1c32cb9e4"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["ea614858-aa1f-88eb-88df-0df1c32cb9e4"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["a9f73c3b-ba40-54c2-52c9-53cb864eba03"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["a9f73c3b-ba40-54c2-52c9-53cb864eba03"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["0011a5bb-3302-742c-a621-c833f2ec8174"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["0011a5bb-3302-742c-a621-c833f2ec8174"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["67995f5e-d70a-e2a3-5494-a22737ff9c44"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["67995f5e-d70a-e2a3-5494-a22737ff9c44"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["be578da5-5d7d-ab2f-1e20-3e60b2942dd8"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["be578da5-5d7d-ab2f-1e20-3e60b2942dd8"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+= MetaData.Schema.B2.["bdd7993a-a255-b4d6-62d6-fe0785da6821"].A4 "c1c28f7f-2258-4fff-a938-28fad91b2653"
+= MetaData.Schema.B2.["bdd7993a-a255-b4d6-62d6-fe0785da6821"].A5 "ce2ad255-5f67-4761-a910-9028518c0aa4"
+~ MetaData.Schema.B2 ["cf3a3afe-c242-189d-b4e1-f6bd0e33b62e","e0b58069-e560-0538-0413-ee6a45d46c88","9598c83d-1924-1759-e364-6f21a6a9623f","cb4437eb-ad09-c3aa-e579-5d7411b9739e","c13464c5-33b3-2425-d48e-8f1ad8181acb","3e1a2c03-0e28-e232-4af8-f76a5872f70e","44b97cb2-fb91-7878-89de-9af5be877375","4e75da6b-0be9-aed0-7f25-2d7df0e4cd1e","3ff4217f-5daa-55ed-f02d-601633b39d08","51f40d28-27d1-c5e5-7558-dad725e0e63a","8a6a0048-e3f6-08c6-2dcc-632a11b12896","bdcf39e9-66b8-2f9e-5c49-32a7007528b6","e3b3546f-60e4-0445-b563-8afaf6b4edc9","131ffe58-fe11-865f-8f0a-d9bde1d32a80","de7b571f-1ac4-1caa-2421-7f0f11215d0e","d368d201-2506-3105-4f94-ded9443aad73","fd9e5bd2-19ad-68b5-1356-fe7b39d36f28","a77180d7-a9d0-5c7d-a47b-74c0545a1774","a53e6c9a-741a-21de-9293-9d87d6014595","09d13380-5ba0-e839-0eb2-8c4de07ba379","3e977072-67fa-588e-d554-1d5c45e71ae9","231defdf-a768-e23a-fb30-1af82d65f9f9","d6b949fc-ba7c-e706-6a88-0422133b6a4e","ea614858-aa1f-88eb-88df-0df1c32cb9e4","a9f73c3b-ba40-54c2-52c9-53cb864eba03","0011a5bb-3302-742c-a621-c833f2ec8174","67995f5e-d70a-e2a3-5494-a22737ff9c44","be578da5-5d7d-ab2f-1e20-3e60b2942dd8","bdd7993a-a255-b4d6-62d6-fe0785da6821"]
+= MetaData.Schema.B6 "5b6a288e-d88d-4719-bcaa-79900aa395f8"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
+- MetaData.Schema.B7
+- MetaData.Schema.HD12
++ MetaData.Schema.B7 false
