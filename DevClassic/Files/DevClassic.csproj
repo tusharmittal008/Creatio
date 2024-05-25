@@ -316,6 +316,11 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtCustomer360App">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtBaseConsts">
 			<HintPath>$(RelativePkgFolderPath)/CrtBaseConsts/$(StandalonePackageAssemblyPath)/CrtBaseConsts.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -466,8 +471,8 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCustomer360App">
-			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
+		<Reference Include="CrtCall">
+			<HintPath>$(RelativePkgFolderPath)/CrtCall/$(StandalonePackageAssemblyPath)/CrtCall.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -476,14 +481,17 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCall">
-			<HintPath>$(RelativePkgFolderPath)/CrtCall/$(StandalonePackageAssemblyPath)/CrtCall.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/Account/Account.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassic/UsrRealtyClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassic/UsrRealtyClassic.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicFile/UsrRealtyClassicFile.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicFile/UsrRealtyClassicFile.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicFolder/UsrRealtyClassicFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicFolder/UsrRealtyClassicFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicInFolder/UsrRealtyClassicInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicInFolder/UsrRealtyClassicInFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicInTag/UsrRealtyClassicInTag.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicInTag/UsrRealtyClassicInTag.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicTag/UsrRealtyClassicTag.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyClassicTag/UsrRealtyClassicTag.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyOfferTypeClassic/UsrRealtyOfferTypeClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyOfferTypeClassic/UsrRealtyOfferTypeClassic.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyTypeClassic/UsrRealtyTypeClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/UsrRealtyTypeClassic/UsrRealtyTypeClassic.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
 	</ItemGroup>

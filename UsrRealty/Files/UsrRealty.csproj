@@ -316,6 +316,11 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="DevClassic">
+			<HintPath>$(RelativePkgFolderPath)/DevClassic/$(StandalonePackageAssemblyPath)/DevClassic.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtBaseConsts">
 			<HintPath>$(RelativePkgFolderPath)/CrtBaseConsts/$(StandalonePackageAssemblyPath)/CrtBaseConsts.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -466,13 +471,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtC360InUiV2">
-			<HintPath>$(RelativePkgFolderPath)/CrtC360InUiV2/$(StandalonePackageAssemblyPath)/CrtC360InUiV2.dll</HintPath>
+		<Reference Include="CrtCall">
+			<HintPath>$(RelativePkgFolderPath)/CrtCall/$(StandalonePackageAssemblyPath)/CrtCall.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCall">
-			<HintPath>$(RelativePkgFolderPath)/CrtCall/$(StandalonePackageAssemblyPath)/CrtCall.dll</HintPath>
+		<Reference Include="CrtC360InUiV2">
+			<HintPath>$(RelativePkgFolderPath)/CrtC360InUiV2/$(StandalonePackageAssemblyPath)/CrtC360InUiV2.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>

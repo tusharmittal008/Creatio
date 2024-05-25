@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "8b12c5ae-899e-45a5-9319-25f179834619",
+    "Name": "UsrRealtyClassicInTag",
+    "ModifiedOnUtc": "\/Date(1716659374000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Realty Classic section record tag",
+    "DependsOn": []
+  }
+}
