@@ -3,6 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Realty list page" />
+			<Item Name="LocalizableStrings.Button_bfdvjxj_caption.Value" Value="Calculate avg price" />
+			<Item Name="LocalizableStrings.MenuItem_f9twrov_caption.Value" Value="Calc average price" />
 		</Items>
 	</Group>
 </Resources>
