@@ -1,4 +1,4 @@
-define("UsrRealtyClassic1Page", [], function() {
+define("UsrRealtyClassic1Page", ["ServiceHelper"], function(ServiceHelper) {
 	return {
 		entitySchemaName: "UsrRealtyClassic",
 		attributes: {},
@@ -14,7 +14,32 @@ define("UsrRealtyClassic1Page", [], function() {
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		methods: {
+          onRunWebServiceButtonClick: function () {
+            var typeObject = this.get("UsrType");
+				if (!typeObject) {
+					return;
+				}
+				var typeId = typeObject.value;
+				var offerTypeObject = this.get("UsrOfferType");
+				if (!offerTypeObject) {
+					return;
+				}
+				var offerTypeId = offerTypeObject.value;
+				var params = {
+					realtyTypeId: typeId,
+					realtyOfferTypeId: offerTypeId,
+					entityName: "UsrRealtyClassic"
+				};				
+				this.console.log("1");
+				ServiceHelper.callService("RealtyService", "GetMaxPriceByTypeId", this.getWebServiceResult, params, this);
+				this.console.log("2");
+			},
+			getWebServiceResult: function(response, success) {
+				this.console.log("3");
+				this.Terrasoft.showInformation("Max price: " + response.GetMaxPriceByTypeIdResult + ", success: " + success);
+          }
+        },
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
@@ -73,41 +98,27 @@ define("UsrRealtyClassic1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP57b7439a-b923-43e7-b738-77f5ed356f76",
+				"name": "RunWebServiceButton",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 24,
 						"rowSpan": 1,
-						"column": 12,
-						"row": 0,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrOfferType",
-					"enabled": true,
-					"contentType": 3
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "STRING60f3ceeb-1653-4100-87da-ef3efa670d33",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 2,
 						"column": 0,
-						"row": 1,
-						"layoutName": "Header"
+						"row": 3,
+						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrComment",
-					"enabled": true,
-					"contentType": 0
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.MyButtonCaption"
+					},
+					"click": {
+						"bindTo": "onRunWebServiceButtonClick"
+					},
+					"style": "red"
 				},
-				"parentName": "Header",
+				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -123,6 +134,44 @@ define("UsrRealtyClassic1Page", [], function() {
 					"bindTo": "UsrType",
 					"enabled": true,
 					"contentType": 5
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP57b7439a-b923-43e7-b738-77f5ed356f76",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 0,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrOfferType",
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "STRING60f3ceeb-1653-4100-87da-ef3efa670d33",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 2,
+						"column": 0,
+						"row": 1,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrComment",
+					"enabled": true,
+					"contentType": 0
 				},
 				"parentName": "Header",
 				"propertyName": "items",
