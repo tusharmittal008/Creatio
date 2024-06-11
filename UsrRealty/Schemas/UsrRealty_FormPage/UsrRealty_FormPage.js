@@ -95,7 +95,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 				"name": "CalMaxPriceMenuItem",
 				"values": {
 					"type": "crt.MenuItem",
-					"caption": "#ResourceString(MenuItem_3z36uxa_caption)#",
+					"caption": "#ResourceString(CalMaxPriceMenuItem_caption)#",
 					"visible": true,
 					"clicked": {
 						"request": "usr.RunWebServiceButtonRequest"
@@ -780,7 +780,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 							"MySuperValidator": {
 								"type": "usr.DGValidator",
 								"params": {
-									"minValue": 50,
+									"minValue": 1,
 									"message": "#ResourceString(PriceCannotBeLess)#"
 								}
 							}
@@ -794,7 +794,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 							"MySuperValidator": {
 								"type": "usr.DGValidator",
 								"params": {
-									"minValue": 100,
+									"minValue": 1,
 									"message": "#ResourceString(AreaCannotBeLess)#"
 								}
 							}
@@ -813,6 +813,11 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 					"PDS_UsrComment_khk8bx0": {
 						"modelConfig": {
 							"path": "PDS.UsrComment"
+						},
+						"validators": {
+							"required": {
+								"type": "crt.Required"
+							}
 						}
 					},
 					"PDS_UsrManager_pvgv3za": {
@@ -1010,6 +1015,28 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 					return next?.handle(request);
 				}
 			},
+
+          {
+        request: "crt.HandleViewModelAttributeChangeRequest",
+        /* The custom implementation of the system request handler. */
+        handler: async (request, next) => {
+            /* Check the request status. */
+            if (request.attributeName === 'PDS_UsrPriceUSD_ms96l00') {
+                var price = await request.$context.PDS_UsrPriceUSD_ms96l00;
+              debugger;
+                /* Check the request description. */
+                if (price > 20000) {
+                    /* If the request status is “New,” apply the validator to the “UsrDescription” attribute. */
+                    request.$context.enableAttributeValidator('PDS_UsrComment_khk8bx0', 'required');
+                } else {
+                    /* If the request status differs from the “New,” do not apply the validator to the “UsrDescription” attribute. */
+                    request.$context.disableAttributeValidator('PDS_UsrComment_khk8bx0', 'required');
+                }
+            }
+            /* Call the next handler if it exists and return its result. */
+            return next?.handle(request);
+        }
+    },
           {
 				request: "usr.RunWebServiceButtonRequest",
 				/* Implementation of the custom query handler. */
@@ -1036,7 +1063,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 					const baseUrl = Terrasoft.utils.uri.getConfigurationWebServiceBaseUrl();
 					const transferName = "rest";
 					const serviceName = "RealtyService";
-					const methodName = "GetMaxPriceByTypeId";
+					const methodName = "GetMinPriceByTypeId";
 					const endpoint = Terrasoft.combinePath(baseUrl, transferName, serviceName, methodName);
 					
 					//const endpoint = "http://in-j50d5s3:8060/0/rest/RealtyService/GetMaxPriceByTypeId";
@@ -1047,7 +1074,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 						entityName: "UsrRealty"
 					};
 					const response = await httpClientService.post(endpoint, params);
-                    this.console.log("response total price = " + response.body.GetMaxPriceByTypeIdResult);
+                    this.console.log("response total price = " + response.body.GetMinPriceByTypeIdResult);
 					
 					/* Call the next handler if it exists and return its result. */
 					return next?.handle(request);

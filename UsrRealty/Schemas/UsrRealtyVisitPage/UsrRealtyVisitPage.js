@@ -79,6 +79,45 @@ define("UsrRealtyVisitPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"parentName": "MainContainer",
 				"propertyName": "items",
 				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_88hyrdd",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.UsrRealtyVisitDS_UsrOwner_wdple7e",
+					"labelPosition": "above",
+					"control": "$UsrRealtyVisitDS_UsrOwner_wdple7e",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_pdch92r",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_pdch92r_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_88hyrdd",
+				"propertyName": "listActions",
+				"index": 0
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -101,6 +140,11 @@ define("UsrRealtyVisitPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"UsrRealtyVisitDS_UsrComment_0ya4paj": {
 						"modelConfig": {
 							"path": "UsrRealtyVisitDS.UsrComment"
+						}
+					},
+					"UsrRealtyVisitDS_UsrOwner_wdple7e": {
+						"modelConfig": {
+							"path": "UsrRealtyVisitDS.UsrOwner"
 						}
 					}
 				}

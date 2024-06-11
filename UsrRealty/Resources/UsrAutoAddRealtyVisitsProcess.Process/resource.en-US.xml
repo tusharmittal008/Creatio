@@ -25,7 +25,7 @@
 			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
 			<Item Name="Parameters.NParameter.Caption" Value="N" />
-			<Item Name="Parameters.NParameter.DisplayValue" Value="3" />
+			<Item Name="Parameters.NParameter.DisplayValue" Value="5" />
 		</Items>
 	</Group>
 </Resources>

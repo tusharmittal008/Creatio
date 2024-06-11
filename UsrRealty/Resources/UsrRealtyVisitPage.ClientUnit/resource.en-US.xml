@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Realty visit form page" />
 			<Item Name="LocalizableStrings.addRecord_lxp263r_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_pdch92r_caption.Value" Value="Add new" />
 		</Items>
 	</Group>
 </Resources>

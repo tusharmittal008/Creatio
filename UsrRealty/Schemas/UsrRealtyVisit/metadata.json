@@ -66,7 +66,19 @@
   "E17": "UsrParentRealtyId",
   "E18": "UsrParentRealtyUsrName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","988ca2e7-3284-6b38-5587-c984453aa739","7e1e62e6-2cf8-5861-95b7-8a4c2ddaf484","8e709069-9bbb-f21d-de0d-96c21e7fa771","e047e96a-a71f-4a2d-d2d7-28318fa34eea"]
++ MetaData.Schema.D2 {
+  "UId": "cb9f6d06-ade7-38f8-94e7-2c8ee15d43bf",
+  "A2": "UsrOwner",
+  "A3": "3ddad212-f76a-4860-9ba4-3f5517245661",
+  "A4": "3ddad212-f76a-4860-9ba4-3f5517245661",
+  "A5": "ce2ad255-5f67-4761-a910-9028518c0aa4",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E17": "UsrOwnerId",
+  "E18": "UsrOwnerName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","988ca2e7-3284-6b38-5587-c984453aa739","7e1e62e6-2cf8-5861-95b7-8a4c2ddaf484","8e709069-9bbb-f21d-de0d-96c21e7fa771","e047e96a-a71f-4a2d-d2d7-28318fa34eea","cb9f6d06-ade7-38f8-94e7-2c8ee15d43bf"]
 = MetaData.Schema.D20.A2 "UsrRealtyVisitEvents"
 = MetaData.Schema.D36.A3 "3ddad212-f76a-4860-9ba4-3f5517245661"
 = MetaData.Schema.D36.BS1 false

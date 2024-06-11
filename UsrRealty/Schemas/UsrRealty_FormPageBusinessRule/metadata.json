@@ -57,12 +57,15 @@
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
                 "UId": "18070155-9bcb-c6a8-0f4e-e55569a5fbbb",
+                "BRT1": "null",
+                "BRT3": "null",
                 "BRT2": 2
               },
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
                 "UId": "0111fbe3-e675-c317-943d-fcfd823ea6b4",
                 "BRT1": "PDS",
+                "BRT3": "null",
                 "BRT2": 2
               },
               {
@@ -74,7 +77,8 @@
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
                 "UId": "123bf3dd-579d-c52e-4f04-93353cf64c31",
-                "BRT1": "PDS_UsrType_80j6z5f"
+                "BRT1": "PDS_UsrType_80j6z5f",
+                "BRT3": "null"
               }
             ],
             "BR3": "BusinessRule_fe66a87"

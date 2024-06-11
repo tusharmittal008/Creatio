@@ -15,7 +15,7 @@ namespace Terrasoft.Configuration
 		[WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.Wrapped,
 			RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
 
-		public decimal GetMaxPriceByTypeId(string realtyTypeId, string realtyOfferTypeId,
+		public decimal GetMinPriceByTypeId(string realtyTypeId, string realtyOfferTypeId,
 			string entityName)
 		{
             if (string.IsNullOrEmpty(realtyTypeId) || string.IsNullOrEmpty(realtyOfferTypeId)
@@ -24,7 +24,7 @@ namespace Terrasoft.Configuration
 				return -1;
 			}
 			Select select = new Select(UserConnection)
-				.Column(Func.Max("UsrPriceUSD"))
+				.Column(Func.Min("UsrPriceUSD"))
 				.From(entityName)
 				.Where("UsrTypeId").IsEqual(Column.Parameter(new Guid(realtyTypeId)))
 				.And("UsrOfferTypeId").IsEqual(Column.Parameter(new Guid(realtyOfferTypeId)))
